@@ -1,7 +1,7 @@
 # timedoctor - dockerized
 **steps:**
 - clone repo
-> git clone https://github.com/dyaaahmed/timedoctor/
+> git clone https://github.com/dyaaahmed/timedoctor.git
 - build image from docker file 
 > docker build -t timedoctor .
 - create $HOME/.Xauthority
