@@ -1,5 +1,5 @@
 FROM ubuntu:18.04
-MAINTAINER "Dyaa Ahmed- dyaaeldinahmed@gmail.com"
+MAINTAINER "Dyaa Ahmed - dyaaeldinahmed@gmail.com"
 RUN apt-get update -y && \
 	  apt-get install libfuse2 \
     libstat-lsmode-perl/bionic nvidia-modprobe \
