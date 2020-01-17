@@ -8,4 +8,4 @@
 > XAUTH=$HOME/.Xauthority
 > touch $XAUTH
 - run time doctor container 
-> docker run --tty --interactive --network=host --env DISPLAY=$DISPLAY --privileged --volume $XAUTH:/root/.Xauthority timedoctor:latest
+> docker run --tty --interactive --network=host -v "./timedoctor:workingdir" --env DISPLAY=$DISPLAY --privileged --volume $XAUTH:/root/.Xauthority timedoctor:latest
